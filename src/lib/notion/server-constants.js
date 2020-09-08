@@ -17,8 +17,10 @@ const normalizeId = id => {
 
 // const NOTION_TOKEN = process.env.NOTION_TOKEN
 // const BLOG_INDEX_ID = normalizeId(process.env.BLOG_INDEX_ID)
-const NOTION_TOKEN = '0efe62d74380191855a8b8caccb38e36fafc940e72ea2cf03c71cf0a2b7210803911b60a9887f7402374f4ae49d8f6dfd53ea6606871e711716e23c822a5cf2a99877ef1fc31044eb573a8eb2763'
-const BLOG_INDEX_ID = '9f2df00f3fc948f28d6af3c0756c7570'
+const NOTION_TOKEN =
+  '250e8cc45017c366830ada60ee3d82d926892dd4122744773f8833a550ed4f4b332f73257b7f0fe0cd95a54b0f5db3adb4f17fdab6c68b2b713e4613a642150f08a138af2ed44f6fa9cd9566bca0'
+const BLOG_INDEX_ID = '9f2df00f-3fc9-48f2-8d6a-f3c0756c7570'
+
 const API_ENDPOINT = 'https://www.notion.so/api/v3'
 const BLOG_INDEX_CACHE = path.resolve('.blog_index_data')
 
