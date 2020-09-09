@@ -3,6 +3,8 @@ import Head from 'next/head'
 import ExtLink from './ext-link'
 import { useRouter } from 'next/router'
 import styles from '../styles/header.module.css'
+import ReactGA from 'react-ga'
+ReactGA.initialize('UA-177558063-1')
 
 const ogImageUrl = 'https://notion-blog.now.sh/og-image.png'
 
