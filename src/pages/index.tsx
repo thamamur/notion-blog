@@ -65,7 +65,7 @@ export default ({ posts = [], preview }) => {
         )}
         {posts.map(post => {
           return (
-            <Link href="/blog/[slug]" as={getBlogLink(post.Slug)}>
+            <Link href="/posts/[slug]" as={getBlogLink(post.Slug)}>
               <a>
                 <div className={blogStyles.postPreview} key={post.Slug}>
                   <h1>
