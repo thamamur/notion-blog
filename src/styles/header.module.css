@@ -1,9 +1,8 @@
 .header {
   display: block;
-  min-height: 64px;
-  padding: 2em 0;
+  min-height: 50px;
+  padding: 0;
   text-align: center;
-  letter-spacing: -0.02em;
 }
 
 .header ul {
@@ -28,6 +27,6 @@
 
 @media (max-width: 600px) {
   .header {
-    padding: .5em 0 2em;
+    padding: 0.5em 0 2em;
   }
 }

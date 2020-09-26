@@ -96,7 +96,7 @@
 
 .post h1 {
   min-height: 1em;
-  margin-top: 72px;
+  /* margin-top: 72px; */
   margin-bottom: 18px;
   font-weight: 700;
   line-height: 1.5;
@@ -117,7 +117,6 @@
 .post :global(img),
 .post :global(.asset-wrapper) {
   margin: 2rem auto;
-  box-shadow: 0 8px 8px rgba(0, 0, 0, 0.3);
   max-width: 100%;
   display: block;
 }
@@ -150,10 +149,22 @@
   margin-bottom: 0.5em;
 }
 
-.post {
-  max-width: calc(600px + 10%);
+.header {
+  max-width: calc(600px + 5%);
   margin: 0 auto;
-  padding: 5%;
+  padding: 0 5%;
+}
+@media (max-width: 620px) {
+  .header {
+    max-width: 100%;
+    padding: 0;
+  }
+}
+
+.post {
+  max-width: calc(600px + 5%);
+  margin: 0 auto;
+  padding: 0 5%;
 }
 
 .post :global(hr) {
@@ -183,10 +194,6 @@
   font-feature-settings: 'palt' 1;
 }
 
-.post main h2 + a {
-  text-decoration: none;
-}
-
 .post main p {
   margin-top: 36px;
   margin-bottom: 36px;
@@ -198,6 +205,7 @@
   padding: 25px 36px;
   line-height: 36px;
   background-color: #f7f9f9;
+  margin: 0;
 }
 
 .post main a {
@@ -208,5 +216,9 @@
 }
 
 .post main a:hover {
+  text-decoration: none;
+}
+
+.post main h2 > a {
   text-decoration: none;
 }
