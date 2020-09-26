@@ -216,7 +216,7 @@ pre.dark[class*='language-'] {
   white-space: nowrap;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 620px) {
   .feature div {
     flex-basis: auto;
     padding-left: 0;
@@ -334,7 +334,7 @@ code {
   transform: skew(-20deg);
 }
 
-@media (max-width: 600px) {
+@media (max-width: 620px) {
   .explanation {
     padding: 0 1rem 4rem;
   }
