@@ -6,7 +6,7 @@ import styles from '../styles/header.module.css'
 import ReactGA from 'react-ga'
 ReactGA.initialize('UA-177558063-1')
 
-const ogImageUrl = 'https://notion-blog.now.sh/og-image.png'
+const ogImageUrl = 'https://thamamur.com/profile.png'
 
 export default ({ titlePre = '', ogImageReplace = undefined }) => {
   const { pathname } = useRouter()
@@ -17,7 +17,7 @@ export default ({ titlePre = '', ogImageReplace = undefined }) => {
         <title>{titlePre ? `${titlePre} | @thamamur` : ''}</title>
         <meta
           name="description"
-          content="An example Next.js site using Notion for the blog"
+          content="濱村拓巳 / Takumi Hamamura. heyでSTORESのプロダクトマネージャーをしています。2019年に静岡県に移住しました。"
         />
         <meta
           name="og:title"
