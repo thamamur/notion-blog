@@ -30,21 +30,6 @@ const contacts = [
 export default () => (
   <>
     <footer className={footerStyles.footer}>
-      <div className={footerStyles.tweetButton}>
-        <a
-          href="https://twitter.com/share?ref_src=twsrc%5Etfw"
-          className="twitter-share-button"
-          data-via="thamamur"
-          data-show-count="false"
-        >
-          Tweet
-        </a>
-        <script
-          async
-          src="https://platform.twitter.com/widgets.js"
-          charSet="utf-8"
-        />
-      </div>
       <div className={footerStyles.links}>
         {contacts.map(({ Comp, link, alt }) => {
           return (
