@@ -14,14 +14,14 @@ export default ({ titlePre = '', ogImageReplace = undefined }) => {
   return (
     <header className={styles.header}>
       <Head>
-        <title>{titlePre ? `${titlePre} | @thamamur` : ''}</title>
+        <title>{titlePre ? `${titlePre} | 濱村 拓巳 (@thamamur)` : ''}</title>
         <meta
           name="description"
-          content="濱村拓巳 / Takumi Hamamura. heyでSTORESのプロダクトマネージャーをしています。2019年に静岡県に移住しました。"
+          content="heyでSTORESのプロダクトマネージャーをしています。2019年に静岡県に移住しました。"
         />
         <meta
           name="og:title"
-          content={titlePre ? `${titlePre} | @thamamur` : ''}
+          content={titlePre ? `${titlePre} | 濱村 拓巳 (@thamamur)` : ''}
         />
         <meta property="og:image" content={ogImageReplace || ogImageUrl} />
         <meta name="twitter:site" content="@thamamur" />
